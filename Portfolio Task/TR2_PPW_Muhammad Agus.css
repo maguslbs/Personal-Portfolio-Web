@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
+* {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("https://cdn.discordapp.com/attachments/580969000599683101/1020905679919251466/1663473267371.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+header nav {
+  display: flex;
+  align-items: flex-start;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 120%;
+  margin: 40%;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.greet {
+  color: white;
+  text-align: center;
+  margin-top: 230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  padding: 90px 60px;
+  background: white;
+  line-height: 2.3;
+}
+
+.about h1 {
+  color: #1f4690;
+  font-size: 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #1f4690;
+}
+
+.facepic {
+  display: flex;
+  height: 500px;
+  padding: 80px 80px;
+}
+
+.intro h2 {
+  font-size: 20px;
+  color: #1f4690;
+}
+
+.about2 {
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+.about2 h1 {
+  display: flex;
+  padding: 30px 60px;
+  color: #1f4690;
+  font-size: 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #1f4690;
+  padding-left: 450px;
+}
+
+.intro2 h2 {
+  font-size: 20px;
+  color: #1f4690;
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 0px;
+}
+
+.font {
+  background-color: #eeeeee;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 60px;
+}/*# sourceMappingURL=TR2_PPW_Muhammad Agus.css.map */
